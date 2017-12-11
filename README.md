@@ -9,4 +9,16 @@ Transformations are simple operation that change the behavior of code.
 Transformations can be used as the sole means for passing the currently failing test in the red/green/refactor cycle. 
 As the test get more specific, the production get more generic.
 
+## Transformation
+
+    no code   -> undefined
+    undefined -> constant
+    constant  -> scalar
+    statement -> if
+    scalar    -> vector
+    statement -> recursion
+    if        -> while
+    statement -> function
+    stateless -> assignment
+
 
