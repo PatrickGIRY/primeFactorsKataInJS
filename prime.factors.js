@@ -3,7 +3,7 @@
 const primeFactorsOf = n => {
     let factors = []
     if (n > 1) {
-        factors.push(2)
+        factors.push(n)
     }
     return factors
 }
