@@ -7,6 +7,10 @@ const primeFactorsOf = n => {
             factors.push(2)
             n /= 2
         }
+        while (n % 3 === 0) {
+            factors.push(3)
+            n /= 3
+        }
     }
     if (n>1) {
         factors.push(n)
