@@ -4,9 +4,8 @@ const primeFactorsOf = n => {
     let factors = []
     let divisor = 2;
     while (n > 1) {
-        while (n % divisor === 0) {
+        for (;n % divisor === 0; n /= divisor) {
             factors.push(divisor)
-            n /= divisor
         }
         divisor++
     }
