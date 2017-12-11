@@ -38,4 +38,8 @@ describe('PrimeFactors', () => {
     it ('9 should have two prime factors 3 and 3', () => {
         expect(primeFactorsOf(9)).toEqual([3, 3])
     })
+
+    it ('180180 should have prime factors 2, 2, 3, 3, 5, 7, 11 and 13', () => {
+        expect(primeFactorsOf(180180)).toEqual([2, 2, 3, 3, 5, 7, 11, 13])
+    })
 })
