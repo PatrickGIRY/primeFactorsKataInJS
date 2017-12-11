@@ -26,4 +26,8 @@ describe('PrimeFactors', () => {
     it ('6 should have two prime factors 2 and 3', () => {
         expect(primeFactorsOf(6)).toEqual([2, 3])
     })
+
+    it ('7 should have one prime factor 7', () => {
+        expect(primeFactorsOf(7)).toEqual([7])
+    })
 })
