@@ -3,8 +3,8 @@
 const primeFactorsOf = n => {
     const loop = (factors, divisor, n) => {
         if (n >1) {
-           for (;n % divisor === 0; n /= divisor) {
-              factors = [...factors, divisor]
+           if(n % divisor === 0) {
+              return loop([...factors, divisor], divisor, n / divisor)
            }
            return loop(factors, divisor + 1, n)
         }
