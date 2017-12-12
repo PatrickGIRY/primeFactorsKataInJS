@@ -1,4 +1,4 @@
-# Prime factors kara in JS
+# Prime factors kata in JS
 ## Transformation Priority Prime
 
 [See the Uncle Bob blog](https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
